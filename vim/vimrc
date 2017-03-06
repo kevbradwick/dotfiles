@@ -1,3 +1,9 @@
+" ----------------------------------
+"  Links 
+"   - https://dougblack.io/words/a-good-vimrc.html
+"   - https://github.com/amix/vimrc/blob/master/vimrcs/extended.vim
+"  ---------------------------------
+
 execute pathogen#infect()
 
 syntax on
@@ -5,3 +11,20 @@ syntax on
 filetype plugin indent on
 
 colorscheme badwolf
+
+" line numbers in left gutter
+set number
+set tabstop=4       " 4 spaces when opening a file
+set softtabstop=4   " 4 spaces when editing a file
+set expandtab		" turns <TAB> into 4 spaces
+set cursorline      " highlight the current line
+set lazyredraw      " only redraw when needed
+set foldenable      " show folds
+set colorcolumn=80  " right column margin
+
+
+" disable scrollbars
+set guioptions-=r
+set guioptions-=R
+set guioptions-=l
+set guioptions-=L
