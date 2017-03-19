@@ -34,3 +34,7 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
+" disable escape key and use jj as escape instead
+inoremap <esc> <nop>
+inoremap jj <esc>
