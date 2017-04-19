@@ -64,3 +64,12 @@ venv/
 [._]s[a-v][a-z]
 [._]sw[a-p]
 # session
+
+
+### Log files ###
+
+*log.txt
+
+### SQL Backups ###
+
+*.backup.sql
