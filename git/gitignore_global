@@ -73,3 +73,4 @@ venv/
 ### SQL Backups ###
 
 *.backup.sql
+.python-version
