@@ -74,3 +74,4 @@ venv/
 
 *.backup.sql
 .python-version
+docker-compose-*.yml
