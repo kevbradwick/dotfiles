@@ -1,22 +1,22 @@
 [user]
 	name = Kevin Bradwick
 	email = kevinbradwick@gmail.com
-[alias]
-        co = checkout
-        ci = commit
-        st = status
-        br = branch
-        cob = checkout -b
 
-        
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    cob = checkout -b
+    
 [core]
 	excludesFile = /home/kevin/.gitignore_global
-        eol = lf
-        autocrlf = false
-        editor = vim
+    eol = lf
+    autocrlf = false
+    editor = vim
 
 [color]
-        ui = true
+    ui = true
 
 [push]
 	default = matching
